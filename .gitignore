@@ -1,0 +1,70 @@
+# ---- .NET Build Artifacts ----
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.user
+*.suo
+*.tmp
+*.dbmdl
+
+# ---- Rider / VS Code / Visual Studio ----
+.vscode/
+.idea/
+.vs/
+*.userprefs
+
+# ---- Entity Framework Core ----
+#migrations can be ignored if you always scaffold from db
+# otherwise keep this commented out
+# CafeApp.Persistence/Migrations/
+
+# ---- OS Generated ----
+.DS_Store
+Thumbs.db
+
+# ---- Test Artifacts ----
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# ---- NuGet Packages ----
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ---- Config Overrides ----
+# Keep default appsettings.json but ignore local overrides
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- Temporary ----
+*.bak
+*.swp
+*.swo
+*.orig
+
+# ---- JetBrains Rider ----
+.idea/
+*.iml
+
+# ---- Coverage Tools ----
+coverage/
+coverage*.json
+lcov.info
